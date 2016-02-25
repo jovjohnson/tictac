@@ -1,0 +1,41 @@
+body {
+	background-color: black;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h1 {
+	color: white;
+	font-weight: 100;
+	font-size: 55px;
+}
+
+
+table {
+	border: 1;
+}
+
+td {
+	background-color: #BFFAFA;
+	width: 100px;
+	height: 100px;
+	color: black;
+	text-align: center;
+	font-size: 37px;
+	font-family: sans-serif;
+	border-radius: 1px;
+	border-spacing: 10px 10px;
+}
+
+
+.header {
+	color: white;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 10px;
+}
+
+input {
+	background-color: black;
+	border: 0.5px solid white;
+	color: white;
+}
