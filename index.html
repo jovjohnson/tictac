@@ -3,55 +3,40 @@
 <head>
 <link rel="stylesheet" href="stylin.css">
 <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="animate.min.css">
 	<meta charset="UTF-8">
 	<title>tic tac toe</title>
 
 </head>
 <body onload="startGame();">
-<center><
-<div class="header">
-	<h1>tic tac toe</h1>
-	<div id="message">messages go here</div>
-	</div>
-<br>
-	<div id="game-area">
-		<table id="game" cellspacing="5">
-			<tr id = "one">
-				<td class="square" id="s1" onclick="nextMove(this);"></td>
-				<td class="square" id="s2" onclick="nextMove(this);"></td>
-				<td class="square" id="s3" onclick="nextMove(this);"></td>
-			</tr>
-			<tr>
-				<td class="square" id="s4" onclick="nextMove(this);"></td>
-				<td class="square" id="s5" onclick="nextMove(this);"></td>
-				<td class="square" id="s6" onclick="nextMove(this);"></td>
-			</tr>
-			<tr>
-				<td class="square" id="s7" onclick="nextMove(this);"></td>
-				<td class="square" id="s8" onclick="nextMove(this);"></td>
-				<td class="square" id="s9" onclick="nextMove(this);"></td>
-			</tr>
+	<center>
+	<div class="header">
+		<h1>tic tac toe</h1>
+		<div id="message">messages go here</div>
+		</div>
+	<br>
+		<div id="game-area">
+			<table id="game" cellspacing="5">
+				<tr id = "one">
+					<td class="square" id="s1" onclick="nextMove(this);"></td>
+					<td class="square" id="s2" onclick="nextMove(this);"></td>
+					<td class="square" id="s3" onclick="nextMove(this);"></td>
+				</tr>
+				<tr>
+					<td class="square" id="s4" onclick="nextMove(this);"></td>
+					<td class="square" id="s5" onclick="nextMove(this);"></td>
+					<td class="square" id="s6" onclick="nextMove(this);"></td>
+				</tr>
+				<tr>
+					<td class="square" id="s7" onclick="nextMove(this);"></td>
+					<td class="square" id="s8" onclick="nextMove(this);"></td>
+					<td class="square" id="s9" onclick="nextMove(this);"></td>
+				</tr>
+		</div>
+	<br>
+		<input type="button" value="Reset" onClick="window.location.reload()">
 
-
-
-
-
-
-
-
-
-
-		</table>
-	</div>
-<br>
-	<input type="button" value="Reset" onClick="window.location.reload()">
-
-
-
-
-
-
-</center>
-<script type="text/javascript" src="main.js"></script>
+	</center>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
